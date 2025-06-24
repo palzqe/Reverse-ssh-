@@ -11,8 +11,8 @@ while now() <= now1:
 
  
 let 
-    ip = "10.151.192.53" 
-    port = 443 
+    ip = "IP" 
+    port = PORT 
     sock = newSocket() 
 
 
